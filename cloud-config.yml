@@ -1,0 +1,11 @@
+rancher: 
+  network: 
+    dns:
+      nameservers: 
+      - 8.8.8.8 
+    interfaces: 
+      eth0: 
+        address: 10.20.90.0/16 
+        dhcp: false 
+        gateway: 10.20.0.1 
+        mtu: 1500
